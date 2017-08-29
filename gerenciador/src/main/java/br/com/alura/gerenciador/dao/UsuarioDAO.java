@@ -10,10 +10,9 @@ public class UsuarioDAO {
 	private final static Map<String, Usuario> USUARIOS = new HashMap<>();
 	static {
 		USUARIOS.put("teste@gmail.com", new Usuario("renan.rgsilva@gmail.com","12345"));
-		USUARIOS.put("teste@alura.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
-		USUARIOS.put("teste.turini@alura.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
+		USUARIOS.put("teste@teste.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
+		USUARIOS.put("teste.turini@teste.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
 		USUARIOS.put("testegit@teste.com", new Usuario("rodrigo.turini@alura.com.br","turini"));
-		USUARIOS.put("fulanodetal@teste.com", new Usuario("rodrigo.turini@alura.com.br","turini"));
 	}
 
 	public Usuario buscaPorEmailESenha(String email, String senha) {
