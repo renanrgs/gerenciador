@@ -11,7 +11,7 @@ public class UsuarioDAO {
 	static {
 		USUARIOS.put("teste@gmail.com", new Usuario("renan.rgsilva@gmail.com","12345"));
 		USUARIOS.put("teste@teste.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
-		USUARIOS.put("teste.turini@teste.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
+		USUARIOS.put("teste.turini@t.com.br", new Usuario("rodrigo.turini@alura.com.br","turini"));
 		USUARIOS.put("testegit@teste.com", new Usuario("rodrigo.turini@alura.com.br","turini"));
 	}
 
